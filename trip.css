@@ -1,0 +1,180 @@
+body{
+    font-family: 'Roboto', sans-serif;
+  }
+  
+  .header{
+    margin-top: 20px;
+    margin-left: 250px;
+    display: flex;
+    font-size:50px;
+   
+  }
+
+  .trip{
+    font-size:30px;
+  
+    
+  }
+
+  .flex1{
+    display:flex;
+    align-items: center;
+    align-content: center;
+    justify-content: space-around;
+    margin:auto;
+  }
+
+ 
+.front{
+    text-align: center;
+    }
+    
+    .back{
+      font-size: 30px;
+      margin-bottom: 40px;
+      text-align: center;
+      margin-top:100px;
+     
+    }
+.back1{
+  font-family: 'Roboto', sans-serif;
+}
+    
+    
+    .fa-arrow-circle-left{
+      margin-right: 15px;
+      color: #FF0000;
+      font-size: 40px;
+    }
+    
+    .titles{
+      font-size: 30px;
+      margin-bottom: 80px;
+     
+    }
+    
+    .delete{
+      font-size: 25px;
+      color: #FF0000;
+      
+      
+    }
+    
+    .checkbox{
+      font-size: 25px;
+      
+    }
+    .box4{
+      width: 350px;
+      height:400px;
+      border:1.2px solid #FF0000;
+      border-radius: 10px;
+      box-shadow: 10px 10px 10px #d4d4d4;
+     text-align: center;
+    
+    }
+    
+    .line{
+      border-bottom: 2px solid rgb(156, 155, 155);
+      width: 60%;
+      margin-left:250px;
+      line-height: 0.1em;
+    }
+    
+    .line span{
+      background:#fff; 
+        padding:0 15px; 
+    }
+
+    .fa-plus-circle{
+        margin-top:110px;
+       margin-left:300px;
+        font-size: 45px;
+        color: #FF0000;
+        position: relative;
+      }
+
+      h1 {
+        width: 35%;
+        text-align: center;
+        border-bottom: 1px solid #000;
+        line-height: 0.1em;
+        margin: auto;
+        position: relative;
+        top: 30px;
+        font-size: 60px;
+    }
+    
+    h1 span {
+        background: #fff;
+        padding: 0 10px;
+        font-family: roboto;
+    }
+
+    
+@media only screen and (max-width: 600px){
+    
+  h1{
+    width: 80%;
+    text-align: right;
+    font-size: 45px;
+    border-bottom: 0px;
+    margin-top:50px;
+    margin-left:30px;
+    font-size: 40px;
+} 
+   
+    .line{
+        border-bottom: 2px solid white;
+        margin-left:0px;
+       
+       
+      }
+
+     
+      .line span{
+        background:#fff; 
+          padding:0px; 
+      }
+  
+      
+      .back1{
+          display: none;
+      }
+      .back{
+        font-size: 30px;
+        margin-bottom: 40px;
+        text-align: center;
+        margin-top:10px;
+        margin-left:-10px;
+      }
+    .box4{
+      width: 300px;
+      height:400px;
+      border:1.2px solid #FF0000;
+      border-radius: 10px;
+      box-shadow: 10px 10px 10px #d4d4d4;
+     text-align: center;
+    }
+
+    .fa-arrow-circle-left{
+       
+        margin-right:240px;
+        color: #FF0000;
+        font-size: 40px;
+        margin-top: -185px;
+        left: 50px;
+      }
+
+    .fa-plus-circle{
+        margin-top:110px;
+        margin-left:240px;
+        font-size: 45px;
+        color: #FF0000;
+        position: relative;
+      }
+
+    
+  
+  }
+ 
